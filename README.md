@@ -1,6 +1,7 @@
 # Autobiber: A tool to find bibs via dblp
 
-Find bib via `https://dblp.org/search/publ/api?h=1000&q="`
+Find and reformat bib via `https://dblp.org/search/publ/api?h=1000&q="`
+
 
 ## Installation
 ````
@@ -22,7 +23,7 @@ autobiber -i list.txt -o output.bib
 autobiber -t "this is a title"
 ```
 
-## Input 
+## Input File
 txt:
 ````txt
 attention is all you need
@@ -43,9 +44,9 @@ title={attention is all you need}
 
 More information is welcome, but only title is used while matching right now.
 
-## output
+## Output
 If more than one bib is found, "xxx find many, please choose manually" will be printed.
-And all bib match wil be saved.
+All bib matched wil be saved.
  ```
  @inproceedings{attentionisallyouneed,
   author    = {Ashish Vaswani and
@@ -107,3 +108,4 @@ Every conference and article since you can find in vdlp.
 Welcome PR.
 
 Please email yjliu045@stu.suda.edu.cn or create Github issues here if you have any questions or suggestions.
+
