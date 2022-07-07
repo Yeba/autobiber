@@ -1,5 +1,5 @@
 import argparse
-from utils import execPool, reqSpider
+from autobiber.utils import execPool, reqSpider
 from xml.dom.minidom import parseString
 
 dblp_api = "https://dblp.org/search/publ/api?h=1000&q="

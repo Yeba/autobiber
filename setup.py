@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 about = {}
-with open("_version.py") as f:
+with open("autobiber/_version.py") as f:
     exec(f.read(), about)
 os.environ["PBR_VERSION"] = about["__version__"]
 
